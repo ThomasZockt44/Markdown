@@ -1,4 +1,4 @@
-# Markdown
+# Markdown-Dokumentation
 
 ## Einleitung
 
@@ -96,9 +96,12 @@ def hello_world():
 
 ## Hoch- und Tiefgestellte Zeichen
 
-Hochgestelltes Zeichen: 2^3
+## Hoch- und Tiefgestellte Zeichen
 
-Tiefgestelltes Zeichen: H~2~O
+Hochgestelltes Zeichen: 2<sup> 3</sup>
+
+Tiefgestelltes Zeichen: H<sub>2 </sub>O
+
 
 ---
 
@@ -132,3 +135,24 @@ Fußnoten können wie folgt erstellt werden[^1]:
 - [ ] Nicht erledigter Task
 
 ---
+## Quellcode ohne Syntax
+def hello_world():
+    print("Hello, World!")
+
+---
+## Tabellen mit unterschiedlicher Textausrichtung
+
+Tabellen können mit verschiedenen Ausrichtungen erstellt werden:
+
+| Links ausgerichtet | Zentriert | Rechts ausgerichtet |
+| :------------------ | :-------: | -------------------: |
+| Text links          | Text Mitte | Text rechts          |
+| 123                 |   456     |                   789 |
+---
+## Bilder mit Textangabe
+
+Bilder können mit einem Ausrufezeichen und eckigen Klammern eingefügt werden:
+
+
+![Markdown Logo](https://markdown-here.com/img/icon256.png)
+
