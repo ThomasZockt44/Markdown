@@ -136,7 +136,7 @@ Fußnoten können wie folgt erstellt werden[^1]:
 
 ---
 ## Quellcode ohne Syntax
-def hello_world():
+ hello_world():
     print("Hello, World!")
 
 ---
