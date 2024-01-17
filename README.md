@@ -96,7 +96,6 @@ def hello_world():
 
 ## Hoch- und Tiefgestellte Zeichen
 
-## Hoch- und Tiefgestellte Zeichen
 
 Hochgestelltes Zeichen: 2<sup> 3</sup>
 
